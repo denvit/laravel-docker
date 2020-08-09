@@ -53,7 +53,7 @@ volumes:
 ```
 
 ## Persistent Redis storage
-It will also remove the data - same as for the mysql, so if you would like to have persistent data do the following to the Redis service:
+Whenever you bring down the Docker network using `docker-compose down` will also remove the redis data, so if you would like to have persistent data do the following to the Redis service:
 
 1. Create a `redis` folder in the project root, alongside the `nginx`, `mysql/mariadb` and `src` folders.
 2. Under the redis service in your `docker-compose.yml` file, add the following lines:
