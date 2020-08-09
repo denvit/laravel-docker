@@ -1,5 +1,5 @@
 ## Docker for Laravel
-A pretty simplified Docker workflow that sets up a LEMP stack and Redis for local Laravel development.
+Simplified Docker workflow that sets up a LEMP stack and Redis for local Laravel development.
 ## Usage
 
 To get started, make sure you have [Docker installed](https://docs.docker.com/docker-for-mac/install/).
